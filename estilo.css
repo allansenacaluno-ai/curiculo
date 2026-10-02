@@ -1,0 +1,499 @@
+/*Zerando o CSS*/
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+/*Estilização Geral*/
+body{
+
+    background-color:#D8D3CA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Boogaloo", sans-serif;
+
+
+}
+
+
+/*Estilização da seção Principal*/
+.sec1 {
+
+    max-width: 1000px;
+    margin:  0 auto;
+    padding: 60px 40px;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    background-color: #c9c4bb;
+    line-height: 1.5;
+    margin-left: 200px;
+
+}
+
+
+.sec1 img {
+
+    border-radius: 8px;
+    width: 250px;
+
+}
+
+/*Estilização dos elementos de texto da seção Principal*/
+.first {
+
+    min-height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    line-height: 1.5;
+    justify-content: center;
+
+}
+
+.first h2 {
+
+font-size: 45px;
+
+}
+
+/*Estilização dos botões*/
+.btn{
+
+    display: inline-block;
+    margin-right: 10px;
+    padding: 13px 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #000000;
+    transition: 0.2s;
+
+}
+
+.btn:hover {
+
+    transform: translateY(-1px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+/*Estilização botão Secundário*/
+.btn-experiencia {
+
+    background-color: #D8D3CA;
+    color: black;
+    transition: 0.2s;
+
+}
+
+.btn-experiencia:hover {
+
+    transform: translateY(-1px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+/*Estilização da Segunda Seção*/
+.fundo {
+
+    background-color: beige;
+    max-width: none;
+    margin-left: 250px;
+
+
+}
+
+.fundo h2 {
+
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.sobre {
+
+    display: flex;
+    gap: 40px;
+
+}
+
+.sobre p {
+
+    width: 65%;
+
+}
+
+.lista-inf {
+
+    background-color: #D8D3CA;
+    border-left: 4px solid #ada8a0;
+    list-style-type: none;
+    padding: 20px;
+    margin-top: -50px;
+    
+}
+
+/*Estilização da Experiencia*/
+.cartao{
+
+ 
+    margin-bottom: 18px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: beige;
+    box-shadow: 2px 2px 10px gray;
+    transition: 0.4s;
+    margin-top: 20px;
+
+}
+
+.cartao:hover {
+
+        transform: translateY(-3px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.data {
+
+    font-weight: bold;
+    
+}
+
+/*Estilzação Experiencia*/
+.grade-cartao{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 20px;
+
+}
+
+/*Estilização Habilidades*/
+.lista-habilidades {
+
+    list-style-type: none;
+    font-weight: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 20px;
+
+}
+
+.lista-habilidades li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    background-color: #f5f5dc;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+
+    transition: 0.3s ease;
+}
+
+.lista-habilidades li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lista-habilidades i {
+    font-size: 32px;
+    transition: 0.3s ease;
+}
+
+.lista-habilidades li:hover i {
+    transform: scale(1.15);
+}
+
+/*Estilização Redes social e rodapé*/
+
+.grade-redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 14px;
+    margin-top: 25px;
+}
+.grade-redes a {
+    padding: 20px;
+    text-decoration: none;
+    color: #1f2937;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    background-color: beige;
+    font-weight: bold;
+    text-align: center;
+}
+.grade-redes a i{
+    font-size: 40px;
+    display: block;
+
+}
+#face{color: blue;}
+#insta{color: orange;}
+#linkein{color: cornflowerblue;}
+#git{color: black;}
+#zap{color: green;}
+
+.grade-redes a:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.lista-contato{
+    list-style: none;
+    padding: 0 ;
+
+}
+.lista-contato li{
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.lista-contato i{
+    color: #15866d;
+    width: 30px;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*Estilização Barra de navegação*/
+
+.menu-lateral {
+
+    position: fixed ;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    padding: 32px 24px;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+
+}
+
+.perfil {
+
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.perfil p {
+
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+.avatar {
+
+    height: 85px;
+    width: 85px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: auto;
+    font-size: 28px;
+    padding-top: 23px;
+    background-color: #ada8a0;
+
+}
+
+.lista-menu {
+
+    list-style-type: none;
+    transition: 0.5s;
+
+}
+
+.lista-menu a {
+
+    text-decoration: none;
+    color: white;   
+    line-height: 50px;
+    
+}
+
+.lista-menu a:hover{
+
+    font-weight: bold;
+
+}
+
+.botao-menu{
+    /*apareca o icone de menu*/
+    display: block;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    padding: 5px 6px;
+    border: none;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.botao-menu:hover{
+
+    scale: 1.1;
+    transition: 0.1s;
+    will-change: transform;
+
+}
+
+.menu-lateral{
+    transform: translateX(-100%);
+    transition: 0.5s;
+    z-index: 2;
+}
+/*classe que ira fazer o menu aparecer na tela */
+.menu-lateral.aberto{
+    transform: translateX(0);
+}
+.fundo-menu.invisivel{
+    display:block ;
+    position: fixed;
+    inset: 0;
+    background: #00000080;
+}
+.fundo{
+    margin: 0;
+    
+}
+
+/*Estilização Icone Flutuante*/
+
+.whats{
+
+    font-size: 60px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    text-decoration: none;
+    
+
+}
+
+.whats i{
+
+    display: flex;
+    justify-content: end;
+    z-index: 5;
+
+}
+
+.whats i:hover{
+
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+/*Modo Celular abaixo*/
+
+@media (max-width: 1080px){
+
+    .botao-menu{
+        /*apareca o icone de menu*/
+        display: block;
+        position: fixed;
+        right: 15px;
+        top: 15px;
+        padding: 12px 15px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .menu-lateral{
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+    /*classe que ira fazer o menu aparecer na tela */
+    .menu-lateral.aberto{
+        transform: translateX(0);
+    }
+    .fundo-menu.invisivel{
+        display:block ;
+        position: fixed;
+        inset: 0;
+        background: #00000080;
+    }
+    .fundo{
+        margin: 0;
+        
+    }
+    
+    .first{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        text-align: center;
+
+    }
+
+    .first h2{
+        font-size: 30px;
+    }
+
+    .grade-cartao{
+
+        grid-template-columns: 1fr ;
+        
+
+    }
+
+    .lista-habilidades{
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .grade-redes{
+
+        grid-template-columns: repeat(3 1fr);
+
+    }
+
+    .sobre{
+
+        flex-direction: column;
+        gap: 80px;
+
+    }
+
+
+
+}
+
+
+
+
+
+
